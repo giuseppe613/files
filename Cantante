@@ -1,0 +1,39 @@
+package cantante;
+import java.util.*;
+
+public class Cantante {
+
+
+  public static void main (String[]args){
+  //costruttore vuoto
+  Cantante cantante1=new cantante();
+cantante1.nome="luciano";
+cantante1.cognome="ligabue";
+cantante1.nikname="liga";
+cantante1.stampadati();
+canzone nuovacanzone=new canzone();
+nuovacanzone.titolo=certenotti";
+nuovacanzone.durata=3.20;
+nuovacanzone.autore=cantante1;{
+}
+
+}
+class cantante
+{
+string nome;
+string cognome;
+string nikname;
+
+
+public void stampadati(){
+System.out.println("nome\t"+this.nome+"cognome\t"this.cognome+"nikname\tthis.nikname");
+}
+{
+class canzone{       
+}
+string titolo;
+double durata;
+cantante autore;
+public void stampadati(){  
+system.out.println("titolodel brano:\t"+this.titolo+"durata:\t+this.durata");
+this.autore.stampadati();    
